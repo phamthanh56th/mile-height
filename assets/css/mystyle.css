@@ -215,6 +215,7 @@ table {
   padding: 17px 55px 15px;
   background: #0c8382;
   color: #fff;
+  border: 0;
   cursor: pointer;
 }
 
@@ -718,15 +719,6 @@ table {
   border-radius: 50%;
 }
 
-.booking-price__product--label .checkmark:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
-}
-
 .booking-price__product--label:after {
   content: "";
   position: absolute;
@@ -790,6 +782,7 @@ table {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
 
 .not__silver .booking-price__product--detail {
@@ -1069,9 +1062,118 @@ table {
   background: #959595;
 }
 
-.booking-price__product--label input:checked ~ .checkmark:after {
+.booking-time .booking-price__product--label input:checked ~ .checkmark:after {
   width: 15px;
   height: 15px;
+}
+
+.checkout {
+  padding: 90px 0;
+}
+
+.checkout__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.checkout__title h2 {
+  font-size: 60px;
+  color: #0c8382;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.checkout__title h4 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #231f20;
+  font-style: italic;
+}
+
+.checkout__form {
+  font-size: 18px;
+  line-height: 25px;
+  color: #231f20;
+}
+
+.checkout__inner {
+  margin: 0 -30px;
+}
+
+.checkout__collum {
+  padding: 0 30px;
+}
+
+.checkout__control:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.checkout__control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkout__control label span {
+  color: red;
+}
+
+.checkout__control .input--information,
+.checkout__control .select--information {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #d7d7d7;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  padding: 0 15px;
+}
+
+.checkout__control .textarea--information {
+  width: 100%;
+  height: 180px;
+  border: 1px solid #d7d7d7;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+}
+
+.checkout__privacy {
+  font-size: 18px;
+  line-height: 25px;
+  color: #231f20;
+  font-style: italic;
+  margin: 30px 0;
+}
+
+.checkout__privacy span {
+  color: red;
+}
+
+.checkout__account {
+  background: #f6f6f6;
+  padding: 30px 0;
+  margin-bottom: 30px;
+}
+
+.checkout__account label p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.checkout__confirm {
+  margin-bottom: 40px;
+}
+
+.checkout__btn {
+  text-align: center;
+}
+
+.checkout .booking-price__product--label .checkmark {
+  background-color: #ffffff;
+  border: 1px solid #b7b7b7;
 }
 
 @media (max-width: 1600px) {
@@ -1217,7 +1319,7 @@ table {
     width: 18px;
     height: 18px;
   }
-  .booking-price__product--label input:checked ~ .checkmark:after {
+  .booking-time .booking-price__product--label input:checked ~ .checkmark:after {
     width: 10px;
     height: 10px;
   }

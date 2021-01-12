@@ -41,17 +41,27 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 
-// $(document).ready(function () {
-//     var default_height = 0;
-//     jQuery('.not__silver').each(function () {
-//         var height_title = jQuery(this).find('.booking-price__product--description').height();
-//         console.log(height_title);
-//         if (height_title > default_height) {
-//             default_height = height_title;
-//         } else {
-//             default_height = default_height;
-//         }
-//     });
-//     console.log(default_height);
-//     //jQuery('.gridder-list').find('.name-category').css('height', default_height);
-// })
+$(document).ready(function () {
+    // var default_height = 0;
+    // jQuery('.not__silver').each(function () {
+    //     var height_title = jQuery(this).find('.booking-price__product--description').height();
+    //     console.log(height_title);
+    //     if (height_title > default_height) {
+    //         default_height = height_title;
+    //     } else {
+    //         default_height = default_height;
+    //     }
+    // });
+    // console.log(default_height);
+    // jQuery('.gridder-list').find('.name-category').css('height', default_height);
+    $('.checkout__account label input[name="checkout__account"]').change(function () {
+        if (this.value == 'checkout__guest') {
+            $('.checkout__account').removeClass('dd');
+        } else {
+            const newLocal = 'checkout__account';
+            if (this.value == newLocal) {
+                $('.checkout__account').addClass('dd');
+            }
+        }
+    })
+})

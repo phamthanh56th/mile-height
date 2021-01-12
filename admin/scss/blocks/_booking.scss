@@ -150,15 +150,6 @@
                 width: 18px;
                 background-color: #eee;
                 border-radius: 50%;
-
-                &:after {
-                    top: 9px;
-                    left: 9px;
-                    width: 8px;
-                    height: 8px;
-                    border-radius: 50%;
-                    background: white;
-                }
             }
 
             &:after {
@@ -232,6 +223,7 @@
         height: 10px;
         background-color: #0c8382;
         @include centerAbsolute(both);
+        border-radius: 50%;
     }
 }
 
@@ -534,7 +526,7 @@
     }
 }
 
-.booking-price__product--label input:checked~.checkmark:after {
+.booking-time .booking-price__product--label input:checked~.checkmark:after {
     width: 15px;
     height: 15px;
 }

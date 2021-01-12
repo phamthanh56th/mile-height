@@ -57,9 +57,100 @@
                     <h4>A 50% Non-refundable deposit is required in case of cancellation. We will not charge your card
                         until we have confirmed your appointment.</h4>
                 </div>
-                <div class="calendar__form">
-                    <form method="POST" id="calendar__form">
-
+                <div class="checkout__form">
+                    <form method="POST" id="checkout__form">
+                        <div class="checkout__inner d-flex">
+                            <div class="checkout__collum collum-50 ">
+                                <div class="checkout__control">
+                                    <label for="">Your Name <span>*</span></label>
+                                    <input type="text" name="your-name" id="" class="input--information" required>
+                                </div>
+                                <div class="checkout__control">
+                                    <label for="">Tel (ext.) <span>*</span></label>
+                                    <input type="number" name="your-tel" id="" class="input--information" required>
+                                </div>
+                                <div class="checkout__control">
+                                    <label for="">Email <span>*</span></label>
+                                    <input type="email" name="your-email" id="" class="input--information" required>
+                                </div>
+                                <div class="checkout__control">
+                                    <label for="">Remark</label>
+                                    <textarea name="your-remark" id="" class="textarea--information"
+                                        required></textarea>
+                                </div>
+                            </div>
+                            <div class="checkout__collum collum-50 ">
+                                <div class="checkout__control">
+                                    <label for="">Card Type <span>*</span></label>
+                                    <select name="your-card-type" id="" class="select--information">
+                                        <option value="Visa">Visa</option>
+                                        <option value="Master Card">Master Card</option>
+                                    </select>
+                                    <label for="" style="margin-top: 10px; margin-bottom: 0;">(Visa, Mastercard)</label>
+                                </div>
+                                <div class="checkout__control">
+                                    <label for="">Credit Card Number <span>*</span></label>
+                                    <input type="number" name="your-card-number" id="" class="input--information"
+                                        required>
+                                </div>
+                                <div class="checkout__control">
+                                    <label for="">Expiration Date <span>*</span></label>
+                                    <input type="date" name="your-expiration-date" id="" class="input--information"
+                                        required>
+                                </div>
+                                <div class="checkout__control">
+                                    <label for="">Csv Code <span>*</span></label>
+                                    <input type="text" name="your-scv-code" id="" class="input--information" required>
+                                </div>
+                                <div class="checkout__control">
+                                    <label for="">Zip Code <span>*</span></label>
+                                    <input type="number" name="your-zip-code" id="" class="input--information" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__privacy">
+                            <span>*</span> Your privacy is very important to us and none of the information entered will
+                            be given,
+                            sold or otherwise distributed to outside parties.
+                        </div>
+                        <div class="checkout__account d-flex dd">
+                            <div class="checkout__collum collum-50 ">
+                                <label class="booking-price__product--labell">Create an Account
+                                    <p>Your email will be your user name</p>
+                                    <input type="radio" id="checkout__account" name="checkout__account"
+                                        value="checkout__account" checked="checked">
+                                    <!-- <span class="checkmark"></span> -->
+                                </label>
+                                <!-- <div class="checkout__account--form">
+                                    <div class="checkout__control" style="margin-bottom: 10px;">
+                                        <input type="password" name="your-password" id="" class="input--information"
+                                            placeholder="Password" required>
+                                    </div>
+                                    <div class="checkout__control">
+                                        <input type="password" name="your-password-cofirm" id=""
+                                            class="input--information" placeholder="Confirm Password" required>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="checkout__collum collum-50 ">
+                                <label class="booking-price__product--labell">Checkout as Guest
+                                    <input type="radio" id="checkout__guest" name="checkout__account"
+                                        value="checkout__guest">
+                                    <!-- <span class="checkmark"></span> -->
+                                </label>
+                            </div>
+                        </div>
+                        <div class="checkout__confirm">
+                            <label class="booking-price__product--label">I have read, understand and agree to the
+                                Mile High Automotive Detail Terms and Conditions.
+                                <input type="radio" id="checkout__confirm" name="checkout__confirm"
+                                    value="checkout__confirm" required>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkout__btn">
+                            <input type="submit" value="Submit" class="btn-primary">
+                        </div>
                     </form>
                 </div>
             </div>
