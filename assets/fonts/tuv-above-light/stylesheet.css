@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TUV Above';
+    src: url('TUVAbove-Light.eot');
+    src: url('TUVAbove-Light.eot?#iefix') format('embedded-opentype'),
+        url('TUVAbove-Light.woff2') format('woff2'),
+        url('TUVAbove-Light.woff') format('woff'),
+        url('TUVAbove-Light.ttf') format('truetype'),
+        url('TUVAbove-Light.svg#TUVAbove-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+body {
+    margin: 0;
+    font-family: "Nexa", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #2b2c2c;
+    text-align: left;
+    background-color: #fff;
+}
+
+input,
+button,
+select,
+textarea {
+    vertical-align: middle;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+    margin: 0;
+    overflow: visible;
+}
+
+button {
+    cursor: pointer;
+}
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+    -webkit-appearance: button;
+}
+
+a {
+    display: block;
+    color: #007bff;
+    line-height: normal;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+figure {
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-row {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-container {
+    padding: 0 15px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.d-text-align-left {
+    text-align: left;
+}
+
+.d-text-align-right {
+    text-align: right;
+}
+
+.d-text-align-center {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul li {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.collum-50 {
+    width: 50%;
+}
+
+.collum-25 {
+    width: 25%;
+    padding: 0 12px;
+}
+
+.btn-primary {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 17px 55px 15px;
+    background: #0c8382;
+    color: #fff;
+    cursor: pointer;
+}

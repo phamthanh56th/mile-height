@@ -1,0 +1,146 @@
+@media(max-width: 1024px) {
+
+    /*===================
+    ================ home =========
+    ====================================*/
+    .front-page .logo a img {
+        width: 170px;
+    }
+
+    .front-page .logo {
+        padding-left: 50px;
+    }
+
+    .front-page .content,
+    .gtg-plus {
+        padding-right: 50px;
+    }
+
+    .call-us h3,
+    .menu__inner a {
+        font-size: 18px;
+    }
+
+    .social li a {
+        font-size: 17px;
+    }
+
+    .front-page .content h1 {
+        font-size: 23px;
+    }
+
+    .menu__inner .collum-active {
+        height: 280px;
+    }
+
+    .menu {
+        padding: 0 50px;
+    }
+
+    .contact {
+        &__info {
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 25px;
+
+            &:after {
+                top: 15px;
+            }
+
+            >a {
+                font-size: 25px;
+
+                &:before,
+                &:after {
+                    top: 15px;
+                }
+            }
+
+            >ul {
+                li {
+                    &:not(:last-child) {
+                        margin-right: 40px;
+                    }
+
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .d-container {
+        max-width: 768px;
+    }
+
+    .internal-page .logo a img {
+        width: 170px;
+    }
+
+    .internal-page .call-us {
+        margin-right: 30px;
+    }
+
+    .internal-page #burger-wrapper {
+        margin-left: 30px;
+    }
+
+    .internal-page {
+        padding-bottom: 120px;
+    }
+
+    .call-us,
+    .social {
+        display: none;
+    }
+
+    .internal-page .logo a img {
+        width: 140px;
+    }
+
+    .internal-page .inner {
+        justify-content: center;
+    }
+
+    .internal-page {
+        padding: 15px;
+        height: 215px;
+    }
+
+    .booking-price {
+        padding: 60px 0 50px;
+    }
+
+    .booking-price__title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .collum-25 {
+        width: 50%;
+    }
+
+    .booking-price__product {
+        margin-bottom: 24px;
+    }
+
+    .silver {
+        margin-bottom: 0;
+    }
+
+    .internal-page #burger-wrapper {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        margin: 0;
+    }
+
+    .calendar {
+        padding: 60px 0;
+
+        &__container {
+            max-width: 768px;
+        }
+    }
+}

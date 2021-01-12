@@ -1,0 +1,78 @@
+//variable
+$color-0c8382: #0c8382;
+$transition: all .3s ease-in-out;
+
+
+// minxin
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin flexbox($flex, $align: null, $justify: null, $direction: null, $wrap: null, $order: null, ) {
+    display: $flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    order: $order;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centerAbsolute($direction: "both") {
+    position: absolute;
+
+    @if($direction=="both") {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+
+    @if($direction=="top") {
+        top: 50%;
+        transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+
+    @if($direction=="left") {
+        left: 50%;
+        transform: translateX(-50%);
+        -ms-transform: translatex(-50%);
+        -webkit-transform: translateX(-50%);
+    }
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null, ) {
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+@mixin ul($style: null, $padding: null, $margin: null) {
+    list-style: $style;
+    padding-left: $padding;
+    margin-bottom: $margin;
+}
+
+@mixin background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+// .box { @include transform(rotate(30deg)); }

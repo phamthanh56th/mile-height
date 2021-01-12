@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Loverica DEMO';
+    src: url('LovericaDEMO.eot');
+    src: url('LovericaDEMO.eot?#iefix') format('embedded-opentype'),
+        url('LovericaDEMO.woff2') format('woff2'),
+        url('LovericaDEMO.woff') format('woff'),
+        url('LovericaDEMO.ttf') format('truetype'),
+        url('LovericaDEMO.svg#LovericaDEMO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

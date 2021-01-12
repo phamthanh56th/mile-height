@@ -1,0 +1,251 @@
+@media(max-width: 1600px) {
+
+    /*===================
+    ================ home =========
+    ====================================*/
+    .call-us h3 {
+        font-size: 22px;
+    }
+
+    .social {
+        li {
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .top-bar {
+        margin-bottom: 50px;
+    }
+
+    .front-page {
+        .logo {
+            a {
+                img {
+                    width: 200px;
+                }
+
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .content h1 {
+            font-size: 32px;
+            text-align: center;
+        }
+    }
+
+    .menu__inner {
+        .collum-active {
+            height: 370px;
+        }
+
+        a {
+            font-size: 25px;
+        }
+
+        .active {
+
+            &:before,
+            &:after {
+                border-width: 1px;
+            }
+
+            &:before {
+                top: 10px;
+                left: 10px;
+            }
+
+            &:after {
+                bottom: 10px;
+                right: 10px;
+            }
+        }
+    }
+
+    .gtg-plus__description {
+        justify-content: center;
+    }
+
+    .gtg-plus p:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    .contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        &__info {
+            &:after {
+                border-width: 4px;
+            }
+
+            >a {
+                font-size: 40px;
+
+                &:before,
+                &:after {
+                    height: 4px;
+                }
+            }
+
+            >ul {
+                li {
+                    &:not(:last-child) {
+                        margin-right: 70px;
+                    }
+
+                    a {
+                        font-size: 37px;
+                    }
+                }
+            }
+        }
+    }
+
+    .internal-page .logo a img {
+        width: 200px;
+    }
+
+    .d-container {
+        max-width: 1199px;
+    }
+
+    .booking-price__title {
+        font-size: 50px;
+    }
+
+    .silver {
+        .booking-price__product--title {
+            font-size: 25px;
+        }
+    }
+
+    p,
+    .booking-price__product--description {
+        font-size: 17px;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        padding: 12px 40px 12px;
+    }
+
+    .not__silver {
+        .booking-price__product--title {
+            font-size: 22px;
+        }
+
+        .booking-price__product--captionParent {
+            img {
+                height: 27px;
+            }
+        }
+    }
+
+    .calendar {
+
+        &__container {
+            max-width: 1024px;
+        }
+
+        &__title {
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+        }
+
+        #calendar {
+
+            .fc-toolbar-title {
+                font-size: 25px;
+            }
+
+            .fc-col-header-cell-cushion {
+                font-size: 18px;
+            }
+
+            .fc-icon {
+                font-size: 25px;
+            }
+
+            .fc-daygrid-day-number {
+                font-size: 18px;
+            }
+        }
+
+        &-result {
+
+            table {
+                tr {
+
+                    td {
+                        h2 {
+                            font-size: 20px;
+                        }
+
+                        h3 {
+                            font-size: 18px;
+                        }
+
+                        ul {
+
+                            li {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+    .booking-time__session ul li:first-child {
+        font-size: 24px;
+    }
+
+    .booking-time__session ul li:last-child {
+        font-size: 20px;
+    }
+
+    .booking-time .booking-price__product--label {
+        padding-left: 30px;
+    }
+
+    .booking-time .booking-price__product--label .checkmark {
+        width: 18px;
+        height: 18px;
+    }
+
+    .booking-price__product--label input:checked~.checkmark:after {
+        width: 10px;
+        height: 10px;
+    }
+
+    .booking-time {
+        max-width: 500px;
+    }
+}

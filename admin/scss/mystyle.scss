@@ -1,0 +1,45 @@
+// /*------------------------------
+// ------components + blocks ------
+// ------------------------------*/
+// @import 'components/root';
+
+// body {
+//     font-family: $font-main;
+//     font-weight: normal;
+// }
+
+// @import 'components/nav-menu';
+// @import 'components/main';
+// @import 'blocks/client';
+// @import 'blocks/login';
+// @import 'blocks/trainer';
+
+
+
+// /*------------------------------
+// ------------reponsive-----------
+// ------------------------------*/
+// @import 'reponsive/1600';
+// @import 'reponsive/1200';
+// @import 'reponsive/1024';
+// @import 'reponsive/800';
+// @import 'reponsive/576';
+// @import 'reponsive/374';
+
+
+@import 'fonts/fonts';
+@import 'print/print';
+@import 'components/root';
+@import 'components/header';
+@import 'components/footer';
+
+
+@import 'blocks/home';
+@import 'blocks/booking';
+
+
+
+@import 'responsive/desktop';
+@import 'responsive/desktop-1280';
+@import 'responsive/tablet';
+@import 'responsive/mobile';
